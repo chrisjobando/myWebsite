@@ -36,17 +36,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="6.6539019"
-     inkscape:cy="3.9406403"
+     inkscape:cx="6.7864844"
+     inkscape:cy="9.2439412"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
-     inkscape:window-width="888"
-     inkscape:window-height="453"
-     inkscape:window-x="164"
-     inkscape:window-y="60"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1307"
+     inkscape:window-height="704"
+     inkscape:window-x="59"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
      showguides="true">
     <inkscape:grid
        type="xygrid"
@@ -200,7 +200,7 @@
        sodipodi:open="true"
        d="M 1.2840019,10.058328 A 0.60312498,0.60312498 0 0 1 0.46475837,10.008346 0.60312498,0.60312498 0 0 1 0.45395128,9.1876501 0.60312498,0.60312498 0 0 1 1.2715946,9.1161131" />
     <circle
-       style="opacity:1;fill:#200000;fill-opacity:0;stroke:#ee8434;stroke-width:0.4;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:0;stroke:#ffffff;stroke-width:0.4;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
        id="path4709-4-3"
        cx="2.0273948"
        cy="9.5737047"
