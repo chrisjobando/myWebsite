@@ -112,23 +112,24 @@
 			&.is-open span:before
 				transform: rotate(-45deg)
 
-// Mobile Nav
-.mobile-nav
-	display: none
-	position: absolute
-	width: 100%
-	background: rgba(215, 38, 61, 1)
-	padding: 30px 0 20px
-	transform: translateY(-100%)
-	transition: all 0.3s ease-in-out
+	// Mobile Nav
+	.mobile-nav
+		display: none
+		position: absolute
+		width: 100%
+		background: rgba(215, 38, 61, 1)
+		padding: 30px 0 20px
+		transform: translateY(-100%)
 
-	ul
-		list-style: none
-		margin: 0
-		padding: 0
-	li
-		text-align: center
-		margin-bottom: 10px
+		transition: all 0.3s ease-in-out
+
+		ul
+			list-style: none
+			margin: 0
+			padding: 0
+		li
+			text-align: center
+			margin-bottom: 10px
 
 
 @media (max-width: 775px)
@@ -159,4 +160,7 @@
 
 		.mobile-nav.is-open
 			display: block
+			/* Not working:
+			// transition: all 0.3s ease-in-out
+			 */
 			transform: translateY(0%)

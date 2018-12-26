@@ -14,6 +14,22 @@
   src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url(https://fonts.gstatic.com/s/ibmplexsans/v3/zYX-KVElMYYaJe8bpLHnCwDKhdTuF6ZJ.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Karla"), local("Karla-Regular"), url(https://fonts.gstatic.com/s/karla/v6/qkBbXvYC6trAT7RVLtw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -400,7 +416,7 @@ body {
   background: #d7263d;
   font-size: 18px;
   line-height: 1.6;
-  font-family: 'IBM Plex Sans' sans-serif;
+  font-family: 'Karla' sans-serif;
   color: #ffc914;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -509,7 +525,7 @@ body {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg); }
 
-.mobile-nav {
+.home-wrap .mobile-nav {
   display: none;
   position: absolute;
   width: 100%;
@@ -518,11 +534,11 @@ body {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   transition: all 0.3s ease-in-out; }
-  .mobile-nav ul {
+  .home-wrap .mobile-nav ul {
     list-style: none;
     margin: 0;
     padding: 0; }
-  .mobile-nav li {
+  .home-wrap .mobile-nav li {
     text-align: center;
     margin-bottom: 10px; }
 
@@ -551,6 +567,7 @@ body {
       display: flex; }
   .home-wrap .mobile-nav.is-open {
     display: block;
+    /* Not working: */
     -webkit-transform: translateY(0%);
             transform: translateY(0%); } }
 
@@ -559,45 +576,72 @@ section.about {
   background-position: center bottom;
   background-size: cover;
   color: #ffc914; }
-  section.about p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1;
-    margin-top: 0;
-    text-align: center; }
-  section.about .home-lead {
-    font-size: 30px;
-    padding-bottom: 10px; }
+  section.about .rect {
+    height: 100%;
+    width: 100%;
+    background-color: #2e5266;
+    opacity: .85;
+    position: center top; }
+    section.about .rect p {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1;
+      margin-top: 0;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px; }
+    section.about .rect .home-lead {
+      font-size: 50px;
+      padding-bottom: 10px; }
 
 section.portfolio {
   background-image: url(../img/portfolio-bg.jpg);
   background-position: center bottom;
   background-size: cover;
   color: #ffc914; }
-  section.portfolio p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1;
-    margin-top: 0;
-    text-align: center; }
-  section.portfolio .home-lead {
-    font-size: 30px;
-    padding-bottom: 10px; }
+  section.portfolio .rect {
+    height: 100%;
+    width: 100%;
+    background-color: #2e5266;
+    opacity: .85;
+    position: center top; }
+    section.portfolio .rect p {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1;
+      margin-top: 0;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px; }
+    section.portfolio .rect .home-lead {
+      font-size: 50px;
+      padding-bottom: 10px; }
 
 section.resume {
-  background-image: url(../img/resume-bg.png);
+  background-image: url(../img/resume-bg.jpg);
   background-position: center bottom;
   background-size: cover;
   color: #ffc914; }
-  section.resume p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1;
-    margin-top: 0;
-    text-align: center; }
-  section.resume .home-lead {
-    font-size: 30px;
-    padding-bottom: 10px; }
+  section.resume .rect {
+    height: 100%;
+    width: 100%;
+    background-color: #2e5266;
+    opacity: .85;
+    position: center top; }
+    section.resume .rect p {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1;
+      margin-top: 0;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px; }
+    section.resume .rect .home-lead {
+      font-size: 50px;
+      padding-bottom: 10px; }
 
 .home-wrap {
   display: -ms-flexbox;
@@ -635,8 +679,8 @@ section.resume {
   max-width: 620px;
   margin: 0 10px; }
 
-.col-50 {
-  width: 50%; }
+.col-80 {
+  width: 80%; }
 
 @media (max-width: 640px) {
   .home-sections .flex {
