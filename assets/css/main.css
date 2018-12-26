@@ -595,12 +595,12 @@ section.about {
       line-height: 1;
       margin-top: 0;
       text-align: center;
-      padding-top: 10px;
+      padding-top: 5px;
       padding-left: 10px;
       padding-right: 10px; }
     section.about .rect .home-lead {
       font-size: 40px;
-      padding-bottom: 10px; }
+      padding-bottom: 3px; }
 
 section.portfolio {
   background-image: url(../img/portfolio-bg.jpg);
@@ -620,12 +620,12 @@ section.portfolio {
       line-height: 1;
       margin-top: 0;
       text-align: center;
-      padding-top: 10px;
+      padding-top: 5px;
       padding-left: 10px;
       padding-right: 10px; }
     section.portfolio .rect .home-lead {
       font-size: 40px;
-      padding-bottom: 10px; }
+      padding-bottom: 3px; }
 
 section.resume {
   background-image: url(../img/resume-bg.jpg);
@@ -645,12 +645,12 @@ section.resume {
       line-height: 1;
       margin-top: 0;
       text-align: center;
-      padding-top: 10px;
+      padding-top: 5px;
       padding-left: 10px;
       padding-right: 10px; }
     section.resume .rect .home-lead {
       font-size: 40px;
-      padding-bottom: 10px; }
+      padding-bottom: 3px; }
 
 .home-wrap {
   display: -ms-flexbox;
