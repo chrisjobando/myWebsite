@@ -450,7 +450,8 @@ body {
     background-size: contain;
     height: 80px;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    z-index: 2; }
   .home-wrap header .site-nav ul {
     list-style: none;
     margin: 20px 0;
@@ -497,7 +498,8 @@ body {
     margin-right: 20px;
     -ms-flex-align: center;
         align-items: center;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 2; }
     .home-wrap header .mobile-nav-toggle span,
     .home-wrap header .mobile-nav-toggle span:before,
     .home-wrap header .mobile-nav-toggle span:after {
@@ -528,6 +530,7 @@ body {
 .home-wrap .mobile-nav {
   display: none;
   position: absolute;
+  z-index: 1;
   width: 100%;
   background: #d7263d;
   padding: 30px 0 20px;
@@ -540,7 +543,8 @@ body {
     padding: 0; }
   .home-wrap .mobile-nav li {
     text-align: center;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    position: relative; }
 
 @media (max-width: 775px) {
   .home-wrap header {
@@ -687,7 +691,7 @@ section.resume {
     display: block; }
   .col-1 {
     max-width: 100%; }
-  .col-50 {
+  .col-80 {
     width: auto; }
   .push-right {
     margin-left: 330px; } }
