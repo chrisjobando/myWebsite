@@ -1,15 +1,14 @@
 mixin nav-content()
 	ul
 		li: a(href="#about") About
-		li: a(href="#portfolio") Portfolio
 		li: a(href="#resume") Resume
+		li: a(href="#portfolio") Portfolio
 		li: a(href="#blog") Blog
 		li: a(href="#contact") Contact
 
 
 .mobile-nav
 	+nav-content()
-
 
 header
 	.header-position
@@ -18,6 +17,10 @@ header
 		nav.site-nav
 			+nav-content()
 
-		a(href="mailto:chrisjobando@gmail.com").email-link +email me
+		<!-- a(href="mailto:chrisjobando@gmail.com").email-link +email me -->
+
+		.copy
+			p © 2019 Chris Obando.
+			p All Rights Reserved
 
 		.mobile-nav-toggle: span

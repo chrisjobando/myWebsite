@@ -10,13 +10,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="10"
-   height="10"
-   viewBox="0 0 2.6458329 2.6458334"
+   width="10.323389"
+   height="6.1371627"
+   viewBox="0 0 2.7313962 1.623791"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="favicon.svg">
+   sodipodi:docname="icon.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -36,23 +36,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="2.1907185"
-     inkscape:cy="0.73695461"
+     inkscape:cx="6.6539019"
+     inkscape:cy="3.9406403"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
-     inkscape:window-width="1307"
-     inkscape:window-height="704"
-     inkscape:window-x="59"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:window-width="888"
+     inkscape:window-height="453"
+     inkscape:window-x="164"
+     inkscape:window-y="60"
+     inkscape:window-maximized="0"
      showguides="true">
     <inkscape:grid
        type="xygrid"
        id="grid43"
-       originx="-0.1048564"
-       originy="-15.50844" />
+       originx="-0.099123146"
+       originy="-16.063964" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -62,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,20 +70,13 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-0.10485641,-8.3040605)">
-    <rect
-       style="opacity:1;fill:#2e5266;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.08;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect843"
-       width="3.0869629"
-       height="3.1220422"
-       x="-0.10561835"
-       y="8.1435642" />
-  </g>
+     transform="translate(-0.09912317,-8.7705797)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-0.10485641,-8.3040605)">
+     transform="translate(-0.09912317,-8.7705797)"
+     style="opacity:1">
     <rect
        transform="translate(0,-270.54167)"
        style="fill:#ee8434;fill-opacity:0;stroke-width:0.26458332"
@@ -195,19 +188,19 @@
        inkscape:connector-curvature="0"
        transform="scale(0.26458333)" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffc914;stroke-width:0.13;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffc914;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4709-5-9"
        sodipodi:type="arc"
-       sodipodi:cx="0.80775088"
+       sodipodi:cx="0.90129524"
        sodipodi:cy="9.5921783"
        sodipodi:rx="0.60312498"
        sodipodi:ry="0.60312498"
        sodipodi:start="0.88338371"
        sodipodi:end="5.3734667"
        sodipodi:open="true"
-       d="M 1.1904575,10.058328 A 0.60312498,0.60312498 0 0 1 0.37121401,10.008346 0.60312498,0.60312498 0 0 1 0.36040692,9.1876501 0.60312498,0.60312498 0 0 1 1.1780502,9.1161131" />
+       d="M 1.2840019,10.058328 A 0.60312498,0.60312498 0 0 1 0.46475837,10.008346 0.60312498,0.60312498 0 0 1 0.45395128,9.1876501 0.60312498,0.60312498 0 0 1 1.2715946,9.1161131" />
     <circle
-       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffc914;stroke-width:0.13;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#200000;fill-opacity:0;stroke:#ee8434;stroke-width:0.4;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
        id="path4709-4-3"
        cx="2.0273948"
        cy="9.5737047"
@@ -217,7 +210,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-0.10485641,-278.84573)">
+     transform="translate(-0.09912317,-279.31225)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2e5266;fill-opacity:1;stroke:none;stroke-width:0.26458332"
