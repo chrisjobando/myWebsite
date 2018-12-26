@@ -335,10 +335,10 @@ template {
 [hidden] {
   display: none; }
 
-/* Pallete RGB */
+/* RGB */
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #ee8434;
+  color: #95a3b3;
   font-weight: bold; }
 
 .gigantic {
@@ -384,21 +384,21 @@ hr {
   height: 0; }
 
 a {
-  color: #ffc914;
+  color: white;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #ffe07a; }
+  color: white; }
 
 ::-moz-selection {
-  background: #2e5266; }
+  background: #84dcc6; }
 
 ::selection {
-  background: #2e5266; }
+  background: #84dcc6; }
 
 ::-moz-selection {
-  background: #2e5266; }
+  background: #84dcc6; }
 
 img::-moz-selection {
   background: transparent; }
@@ -410,22 +410,23 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #2e5266; }
+  -webkit-tap-highlight-color: #84dcc6; }
 
 body {
-  background: #d7263d;
+  background: #222222;
   font-size: 18px;
   line-height: 1.6;
   font-family: 'Karla' sans-serif;
-  color: #ffc914;
+  color: #222222;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
 .home-wrap header {
   width: 150px;
-  background: #d7263d;
+  background: #222222;
   padding: 30px 0;
-  color: #ffc914; }
+  color: white;
+  font-family: 'Karla'; }
   .home-wrap header .header-position {
     position: fixed;
     top: 30px;
@@ -458,7 +459,7 @@ body {
     padding: 0 20px 0 0;
     text-align: right; }
     .home-wrap header .site-nav ul li {
-      color: #ffc914;
+      color: white;
       margin-bottom: 15px; }
       .home-wrap header .site-nav ul li:last-child {
         margin-bottom: 0; }
@@ -469,7 +470,7 @@ body {
           position: absolute;
           width: 100%;
           height: 2px;
-          background-color: #2e5266;
+          background-color: #95a3b3;
           bottom: 0;
           left: 0;
           -webkit-transform: scaleX(0);
@@ -478,7 +479,7 @@ body {
           -webkit-transform: scaleX(1);
                   transform: scaleX(1); }
   .home-wrap header .email-link {
-    color: #ffc914;
+    color: #222222;
     display: block;
     text-align: right;
     padding-right: 20px; }
@@ -507,7 +508,7 @@ body {
       display: block;
       height: 2px;
       width: 100%;
-      background: #2e5266;
+      background: white;
       position: relative;
       transition: all 0.3s ease-in-out; }
     .home-wrap header .mobile-nav-toggle span:before {
@@ -532,7 +533,7 @@ body {
   position: absolute;
   z-index: 1;
   width: 100%;
-  background: #d7263d;
+  background: #222222;
   padding: 30px 0 20px;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -579,15 +580,16 @@ section.about {
   background-image: url(../img/about-bg.jpg);
   background-position: center bottom;
   background-size: cover;
-  color: #ffc914; }
+  color: white;
+  font-family: 'Karla'; }
   section.about .rect {
     height: 100%;
     width: 100%;
-    background-color: #2e5266;
-    opacity: .85;
+    background-color: #222222;
+    opacity: .75;
     position: center top; }
     section.about .rect p {
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 1;
       margin-top: 0;
@@ -596,22 +598,23 @@ section.about {
       padding-left: 10px;
       padding-right: 10px; }
     section.about .rect .home-lead {
-      font-size: 50px;
+      font-size: 40px;
       padding-bottom: 10px; }
 
 section.portfolio {
   background-image: url(../img/portfolio-bg.jpg);
   background-position: center bottom;
   background-size: cover;
-  color: #ffc914; }
+  color: white;
+  font-family: 'Karla'; }
   section.portfolio .rect {
     height: 100%;
     width: 100%;
-    background-color: #2e5266;
-    opacity: .85;
+    background-color: #222222;
+    opacity: .75;
     position: center top; }
     section.portfolio .rect p {
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 1;
       margin-top: 0;
@@ -620,22 +623,23 @@ section.portfolio {
       padding-left: 10px;
       padding-right: 10px; }
     section.portfolio .rect .home-lead {
-      font-size: 50px;
+      font-size: 40px;
       padding-bottom: 10px; }
 
 section.resume {
   background-image: url(../img/resume-bg.jpg);
   background-position: center bottom;
   background-size: cover;
-  color: #ffc914; }
+  color: white;
+  font-family: 'Karla'; }
   section.resume .rect {
     height: 100%;
     width: 100%;
-    background-color: #2e5266;
-    opacity: .85;
+    background-color: #222222;
+    opacity: .75;
     position: center top; }
     section.resume .rect p {
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 1;
       margin-top: 0;
@@ -644,7 +648,7 @@ section.resume {
       padding-left: 10px;
       padding-right: 10px; }
     section.resume .rect .home-lead {
-      font-size: 50px;
+      font-size: 40px;
       padding-bottom: 10px; }
 
 .home-wrap {

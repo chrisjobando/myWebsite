@@ -1,9 +1,10 @@
 .home-wrap
 	header
 		width: 150px
-		background: rgba(215, 38, 61, 1)
+		background: $primary-color
 		padding: 30px 0
-		color: rgba(255, 201, 20, 1)
+		color: $text-color
+		font-family: 'Karla'
 
 		.header-position
 			position: fixed
@@ -37,7 +38,7 @@
 				text-align: right
 
 				li
-					color: rgba(255, 201, 20, 1)
+					color: $text-color
 					margin-bottom: 15px
 
 					&:last-child
@@ -61,7 +62,7 @@
 								transform: scaleX(1)
 
 		.email-link
-			color: rgba(255, 201, 20, 1)
+			color: $bg-color
 			display: block
 			text-align: right
 			padding-right: 20px
@@ -91,7 +92,7 @@
 				display: block
 				height: 2px
 				width: 100%
-				background: rgba(46, 82, 102, 1)
+				background: $text-color
 				position: relative
 
 				transition: all 0.3s ease-in-out
@@ -120,7 +121,7 @@
 		position: absolute
 		z-index: 1
 		width: 100%
-		background: rgba(215, 38, 61, 1)
+		background: $primary-color
 		padding: 30px 0 20px
 		transform: translateY(-100%)
 
