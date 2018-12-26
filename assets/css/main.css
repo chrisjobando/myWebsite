@@ -529,6 +529,7 @@ body {
               transform: rotate(-45deg); }
 
 .home-wrap .mobile-nav {
+  font-family: 'Karla';
   display: none;
   position: absolute;
   z-index: 1;
