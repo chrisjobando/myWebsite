@@ -600,7 +600,7 @@ section.about {
       padding-right: 10px; }
     section.about .rect .home-lead {
       font-size: 40px;
-      padding-bottom: 3px; }
+      font-weight: 800; }
     section.about .rect .skill {
       color: #ffc914;
       font-weight: 800; }
@@ -614,10 +614,10 @@ section.portfolio {
   section.portfolio .rect {
     height: 100%;
     width: 100%;
-    background-color: #222222;
-    opacity: .75;
+    background-color: rgba(34, 34, 34, 0.85);
     position: center top; }
     section.portfolio .rect p {
+      position: relative;
       font-size: 20px;
       font-weight: 400;
       line-height: 1;
@@ -628,7 +628,12 @@ section.portfolio {
       padding-right: 10px; }
     section.portfolio .rect .home-lead {
       font-size: 40px;
-      padding-bottom: 3px; }
+      padding-bottom: 3px;
+      font-weight: 800; }
+    section.portfolio .rect .flex.flex--space-around .col2 img {
+      border-radius: 50%; }
+    section.portfolio .rect .flex.flex--space-around .col2 p {
+      color: #ffc914; }
 
 section.resume {
   background-image: url(../img/resume-bg.jpg);
@@ -650,7 +655,6 @@ section.resume {
       margin-top: 0;
       text-align: center;
       padding-top: 5px;
-      padding-right: 10px;
       list-style: none;
       font-weight: 800; }
       section.resume .rect ul li {
@@ -664,6 +668,29 @@ section.resume {
       section.resume .rect ul .text {
         color: white;
         font-weight: 400; }
+      section.resume .rect ul .logo {
+        overflow: hidden;
+        text-indent: 101%;
+        white-space: nowrap;
+        line-height: 2;
+        background-image: url(/assets/img/shadowKnight.gif);
+        background-repeat: no-repeat; }
+      section.resume .rect ul .logo2 {
+        overflow: hidden;
+        text-indent: 101%;
+        white-space: nowrap;
+        line-height: 2;
+        background-image: url(/assets/img/app.gif);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      section.resume .rect ul .logo3 {
+        overflow: hidden;
+        text-indent: 101%;
+        white-space: nowrap;
+        line-height: 2;
+        background-image: url(/assets/img/solar.gif);
+        background-repeat: no-repeat;
+        background-size: contain; }
 
 .home-wrap {
   display: -ms-flexbox;
@@ -701,6 +728,9 @@ section.resume {
   max-width: 620px;
   margin: 0 10px; }
 
+.col-50 {
+  width: 50%; }
+
 .col-80 {
   width: 80%; }
 
@@ -709,6 +739,8 @@ section.resume {
     display: block; }
   .col-1 {
     max-width: 100%; }
+  .col-50 {
+    width: auto; }
   .col-80 {
     width: auto; }
   .push-right {

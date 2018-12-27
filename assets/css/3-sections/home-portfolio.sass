@@ -9,11 +9,11 @@ section.portfolio
 	.rect
 		height: 100%
 		width: 100%
-		background-color: $bg-color
-		opacity: .75
+		background-color: rgba(34, 34, 34, .85);
 		position: center top
 
 		p
+			position: relative
 			font:
 				size: 20px
 				weight: 400
@@ -27,3 +27,11 @@ section.portfolio
 		.home-lead
 			font-size: 40px
 			padding-bottom: 3px
+			font-weight: 800
+
+		.flex.flex--space-around
+			.col2
+				img
+					border-radius: 50%
+				p
+					color: $bold-color
