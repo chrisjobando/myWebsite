@@ -48,17 +48,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="32"
-     inkscape:cx="3.4687489"
+     inkscape:cx="9.1406239"
      inkscape:cy="1.0125065"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1307"
-     inkscape:window-height="704"
-     inkscape:window-x="59"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:window-width="886"
+     inkscape:window-height="453"
+     inkscape:window-x="147"
+     inkscape:window-y="134"
+     inkscape:window-maximized="0"
      showguides="false">
     <inkscape:grid
        type="xygrid"
@@ -257,7 +257,7 @@
        cy="10.282068"
        r="0.60312498" />
     <circle
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffdf00;stroke-width:0.13;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffc914;stroke-width:0.13;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
        id="path4709-4-3"
        cx="2.5535817"
        cy="10.269442"
@@ -293,7 +293,7 @@
            style="line-height:0.25" /></flowRegion><flowPara
          id="flowPara22" /></flowRoot>    <path
        transform="translate(0,270.54167)"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffdf00;stroke-width:0.13;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffc914;stroke-width:0.13;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1"
        id="path4709-5"
        sodipodi:type="arc"
        sodipodi:cx="0.77267176"
