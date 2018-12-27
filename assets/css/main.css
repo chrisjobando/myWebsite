@@ -630,9 +630,10 @@ section.portfolio {
       font-size: 40px;
       padding-bottom: 3px;
       font-weight: 800; }
-    section.portfolio .rect .flex.flex--space-around .col2 img {
+    section.portfolio .rect .flex.flex--space-around .col-2 img {
+      display: block;
       border-radius: 50%; }
-    section.portfolio .rect .flex.flex--space-around .col2 p {
+    section.portfolio .rect .flex.flex--space-around .col-2 p {
       color: #ffc914; }
 
 section.resume {
@@ -738,6 +739,8 @@ section.resume {
   .home-sections .flex {
     display: block; }
   .col-1 {
+    max-width: 100%; }
+  .col-2 {
     max-width: 100%; }
   .col-50 {
     width: auto; }
