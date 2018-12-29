@@ -5,10 +5,11 @@
 @import "1-base/vars";
 @import "1-base/base";
 
-@import "3-sections/header";
-@import "3-sections/home-about";
-@import "3-sections/home-portfolio";
-@import "3-sections/home-resume";
-@import "3-sections/about-me";
+@import "3-sections/_header";
+@import "3-sections/_home-about";
+@import "3-sections/_home-resume";
+@import "3-sections/_home-notes";
+@import "3-sections/_home-portfolio";
+@import "3-sections/_about-me";
 
 @import "4-layouts/home"
