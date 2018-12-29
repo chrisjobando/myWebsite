@@ -602,6 +602,7 @@ section.about {
     section.about .rect .home-lead {
       font-size: 40px;
       font-weight: 800;
+      padding-top: 5px;
       transition: all 0.3s ease-in-out; }
     section.about .rect .skill {
       color: #ffc914;
