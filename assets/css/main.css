@@ -586,8 +586,7 @@ section.about {
   section.about .rect {
     height: 100%;
     width: 100%;
-    background-color: #222222;
-    opacity: .85;
+    background-color: rgba(34, 34, 34, 0.85);
     position: center top; }
     section.about .rect p {
       font-size: 20px;
@@ -649,8 +648,7 @@ section.resume {
   section.resume .rect {
     height: 100%;
     width: 100%;
-    background-color: #222222;
-    opacity: .85;
+    background-color: rgba(34, 34, 34, 0.85);
     position: center top; }
     section.resume .rect ul {
       max-width: 400px;
@@ -712,8 +710,7 @@ section.aboutme {
   section.aboutme .rect {
     height: 100%;
     width: 100%;
-    background-color: #222222;
-    opacity: .85;
+    background-color: rgba(34, 34, 34, 0.85);
     position: center top; }
     section.aboutme .rect p {
       font-size: 20px;
