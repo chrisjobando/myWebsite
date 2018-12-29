@@ -600,7 +600,8 @@ section.about {
       padding-right: 10px; }
     section.about .rect .home-lead {
       font-size: 40px;
-      font-weight: 800; }
+      font-weight: 800;
+      transition: all 0.3s ease-in-out; }
     section.about .rect .skill {
       color: #ffc914;
       font-weight: 800; }
@@ -718,7 +719,8 @@ section.aboutme {
       font-size: 40px;
       font-weight: 800;
       text-align: center;
-      padding-top: 10px; }
+      padding-top: 10px;
+      transition: all 0.7s ease-in-out; }
     section.aboutme .rect .skill {
       color: #ffc914;
       font-weight: 800; }
