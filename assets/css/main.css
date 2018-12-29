@@ -693,6 +693,36 @@ section.resume {
         background-repeat: no-repeat;
         background-size: contain; }
 
+section.aboutme {
+  background-image: url(../img/about-bg.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  color: white;
+  font-family: 'Karla'; }
+  section.aboutme .rect {
+    height: 100%;
+    width: 100%;
+    background-color: #222222;
+    opacity: .85;
+    position: center top; }
+    section.aboutme .rect p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1;
+      margin-top: 0;
+      text-align: left;
+      padding-top: 5px;
+      padding-left: 10px;
+      padding-right: 10px; }
+    section.aboutme .rect .home-lead {
+      font-size: 40px;
+      font-weight: 800;
+      text-align: center;
+      padding-top: 10px; }
+    section.aboutme .rect .skill {
+      color: #ffc914;
+      font-weight: 800; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
