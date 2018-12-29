@@ -573,7 +573,7 @@ body {
       display: flex; }
   .home-wrap .mobile-nav.is-open {
     display: block;
-    /* Not working: */
+    transition: all 0.3s ease-in-out;
     -webkit-transform: translateY(0%);
             transform: translateY(0%); } }
 
@@ -598,6 +598,8 @@ section.about {
       padding-top: 5px;
       padding-left: 10px;
       padding-right: 10px; }
+      section.about .rect p:last-child {
+        padding-bottom: 15px; }
     section.about .rect .home-lead {
       font-size: 40px;
       font-weight: 800;
@@ -626,7 +628,8 @@ section.portfolio {
       text-align: center;
       padding-top: 5px;
       padding-left: 10px;
-      padding-right: 10px; }
+      padding-right: 10px;
+      padding-bottom: 15px; }
     section.portfolio .rect .home-lead {
       font-size: 40px;
       padding-bottom: 3px;
@@ -657,8 +660,11 @@ section.resume {
       margin-top: 0;
       text-align: center;
       padding-top: 5px;
+      padding-bottom: 5px;
       list-style: none;
       font-weight: 800; }
+      section.resume .rect ul:last-child {
+        padding-bottom: 15px; }
       section.resume .rect ul li {
         text-align: left;
         margin-top: 5px;
