@@ -595,10 +595,10 @@ section.about {
       line-height: 1;
       margin-top: 0;
       text-align: center;
-      padding-top: 5px;
       padding-left: 10px;
       padding-right: 10px; }
       section.about .rect p:last-child {
+        padding-top: 2px;
         padding-bottom: 15px; }
     section.about .rect .home-lead {
       font-size: 40px;
@@ -681,6 +681,7 @@ section.resume {
         text-indent: 101%;
         white-space: nowrap;
         line-height: 2;
+        background-position: left;
         background-image: url(/assets/img/shadowKnight.gif);
         background-repeat: no-repeat; }
       section.resume .rect ul .logo2 {
@@ -688,6 +689,7 @@ section.resume {
         text-indent: 101%;
         white-space: nowrap;
         line-height: 2;
+        background-position: left;
         background-image: url(/assets/img/app.gif);
         background-repeat: no-repeat;
         background-size: contain; }
@@ -696,6 +698,7 @@ section.resume {
         text-indent: 101%;
         white-space: nowrap;
         line-height: 2;
+        background-position: left;
         background-image: url(/assets/img/solar.gif);
         background-repeat: no-repeat;
         background-size: contain; }
