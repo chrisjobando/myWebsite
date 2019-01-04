@@ -898,20 +898,24 @@ section.shadowknight {
 .about-sections {
   -ms-flex: 1;
       flex: 1; }
-  .about-sections section {
+
+.game-sections {
+  -ms-flex: 1;
+      flex: 1; }
+  .game-sections section {
     padding: 50px 0; }
-  .about-sections .flex {
+  .game-sections .flex {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: rows;
         flex-direction: rows; }
-  .about-sections .flex--center {
+  .game-sections .flex--center {
     -ms-flex-pack: center;
         justify-content: center; }
-  .about-sections .flex--space-around {
+  .game-sections .flex--space-around {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
-  .about-sections .order-first {
+  .game-sections .order-first {
     -ms-flex-order: -1;
         order: -1; }
 
