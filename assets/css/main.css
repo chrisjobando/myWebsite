@@ -626,13 +626,13 @@ section.resume {
       line-height: 1;
       margin-top: 0;
       text-align: center;
-      padding-top: 5px;
+      padding-top: 10px;
       padding-bottom: 5px;
       list-style: none;
       font-weight: 800;
       padding-left: 10px; }
       section.resume .rect ul:last-child {
-        padding-bottom: 15px; }
+        padding-top: 100px; }
       section.resume .rect ul li {
         text-align: left;
         margin-top: 5px;
@@ -668,6 +668,15 @@ section.resume {
         line-height: 2;
         background-position: left;
         background-image: url(/assets/img/solar.gif);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      section.resume .rect ul .logo4 {
+        overflow: hidden;
+        text-indent: 101%;
+        white-space: nowrap;
+        line-height: 2;
+        background-position: left;
+        background-image: url(/assets/img/react.gif);
         background-repeat: no-repeat;
         background-size: contain; }
 
