@@ -898,6 +898,22 @@ section.shadowknight {
 .about-sections {
   -ms-flex: 1;
       flex: 1; }
+  .about-sections section {
+    padding: 50px 0; }
+  .about-sections .flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: rows;
+        flex-direction: rows; }
+  .about-sections .flex--center {
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .about-sections .flex--space-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .about-sections .order-first {
+    -ms-flex-order: -1;
+        order: -1; }
 
 .game-sections {
   -ms-flex: 1;
