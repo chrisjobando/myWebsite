@@ -857,6 +857,15 @@ section.shadowknight {
       padding-top: 3px;
       padding-left: 10px;
       padding-right: 10px; }
+    section.shadowknight .rect ul {
+      text-align: center; }
+      section.shadowknight .rect ul li {
+        text-align: left; }
+      section.shadowknight .rect ul .char {
+        color: #ffc914;
+        list-style: none; }
+      section.shadowknight .rect ul .none {
+        list-style: none; }
     section.shadowknight .rect .action.gba_loader div {
       font-size: 20px;
       font-weight: 600;
