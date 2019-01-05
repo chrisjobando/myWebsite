@@ -857,6 +857,8 @@ section.shadowknight {
       padding-top: 5px;
       padding-left: 10px;
       padding-right: 10px; }
+    section.shadowknight .rect .action.gba_loader div {
+      text-align: center; }
     section.shadowknight .rect .home-lead {
       font-size: 40px;
       font-weight: 800;
