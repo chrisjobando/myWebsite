@@ -2,9 +2,9 @@ var current = document.getElementById('default');
 var el =  current;
 
 $(function () {
-  mobileNav();
-  highlight();
-});
+    mobileNav();
+    highlight();
+  });
 
 function mobileNav() {
   $('.mobile-nav-toggle').on('click', function () {
