@@ -1,11 +1,11 @@
 mixin nav-content()
-	ul
-		li: a(id="default" class="highlight" onclick="highlight(this);" href="/") Home
-		li: a(onclick="highlight(this);" href="/about") About
-		li: a(onclick="highlight(this);" href="/resume") Resume
-		li: a(onclick="highlight(this);" href="/portfolio") Portfolio
+	ul(class="navigation")
+		li: a(class="highlight" href="/") Home
+		li: a(href="/about") About
+		li: a(href="/resume") Resume
+		li: a(href="/portfolio") Portfolio
 		//- li: a(href="/blog") Blog
-		li: a(onclick="highlight(this);" href="mailto:chrisjobando@gatech.edu") Contact
+		li: a(href="mailto:chrisjobando@gatech.edu") Contact
 
 .mobile-nav
 	+nav-content()
