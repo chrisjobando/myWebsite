@@ -1,3 +1,5 @@
+var current = document.getElementById('default');
+
 $(function () {
   mobileNav();
   highlight();
@@ -11,8 +13,6 @@ function mobileNav() {
     } else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
   });
 }
-
-var current = document.getElementById('default');
 
 function highlight(el) {
   if (current != null) {
