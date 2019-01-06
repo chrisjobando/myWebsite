@@ -1,5 +1,4 @@
 var current = document.getElementById('default');
-var el =  current;
 
 $(function () {
     mobileNav();
