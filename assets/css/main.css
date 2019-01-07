@@ -790,17 +790,15 @@ section.portfolio {
       margin-top: 0;
       text-align: center;
       padding-top: 5px;
-      padding-left: 10px;
-      padding-right: 10px;
       padding-bottom: 15px; }
     section.portfolio .rect .home-lead {
       font-size: 40px;
       padding-bottom: 3px;
       font-weight: 800; }
-    section.portfolio .rect .flex.flex--space-around .col-2 img {
+    section.portfolio .rect .flex.flex--space-around .col-4 img {
       display: block;
       border-radius: 50%; }
-    section.portfolio .rect .flex.flex--space-around .col-2 p {
+    section.portfolio .rect .flex.flex--space-around .col-4 p {
       display: block;
       color: #ffc914; }
 
@@ -1073,6 +1071,10 @@ section.resumepage {
   max-width: 400px;
   margin: 0 10px; }
 
+.col-4 {
+  max-width: 80px;
+  margin: 0; }
+
 .col-50 {
   width: 50%; }
 
@@ -1094,7 +1096,9 @@ section.resumepage {
     max-width: 100%; }
   .col-2 {
     max-width: 100%; }
-    .col-2 img {
+  .col-4 {
+    max-width: 100%; }
+    .col-4 img {
       margin-left: auto;
       margin-right: auto; }
   .col-50 {
