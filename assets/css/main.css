@@ -1000,6 +1000,26 @@ section.resumepage {
     -ms-flex-order: -1;
         order: -1; }
 
+.blog-sections {
+  -ms-flex: 1;
+      flex: 1; }
+  .blog-sections section {
+    padding: 50px 0; }
+  .blog-sections .flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: rows;
+        flex-direction: rows; }
+  .blog-sections .flex--center {
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .blog-sections .flex--space-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .blog-sections .order-first {
+    -ms-flex-order: -1;
+        order: -1; }
+
 .resume-sections {
   -ms-flex: 1;
       flex: 1; }
