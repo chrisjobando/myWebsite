@@ -1,7 +1,9 @@
-jQuery(document).ready(function ($) {
-  // Finds target link from current path
-  var path  = window.location.pathname.split('/').pop();
-  var target = $('li [href="' + path + '"]').parent().addClass('active');
+$(function () {
+  $('a').each(function () {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('active'); $(this).parents('li').addClass('active');
+    }
+  });
 });
 
 $(function () {
