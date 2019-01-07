@@ -1,6 +1,11 @@
+jQuery(document).ready(function ($) {
+  // Finds target link from current path
+  var path  = window.location.pathname.split('/').pop();
+  var target = $('li [href="' + path + '"]').parent().addClass('active');
+});
+
 $(function () {
     mobileNav();
-    highlight();
   });
 
 function mobileNav() {
@@ -9,17 +14,5 @@ function mobileNav() {
 
     if (status) { $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open');
     } else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
-  });
-}
-
-function highlight() {
-  $(document).ready(function () {
-    var str = location.href.toLowerCase();
-    $('.navigation li a').each(function () {
-      if (str.indexOf(this.href.toLowerCase()) > -1) {
-        $('li.highlight').removeClass('highlight');
-        $(this).parent().addClass('highlight');
-      }
-    });
   });
 }

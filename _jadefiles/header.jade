@@ -1,27 +1,26 @@
 mixin nav-content()
-	ul(class="navigation")
-		li: a(class="highlight" href="/") Home
-		li: a(href="/about") About
-		li: a(href="/resume") Resume
-		li: a(href="/portfolio") Portfolio
-		//- li: a(href="/blog") Blog
-		li: a(href="mailto:chrisjobando@gatech.edu") Contact
+  ul
+    li: a(href="/about") About
+    li: a(href="/resume") Resume
+    li: a(href="/portfolio") Portfolio
+    //- li: a(href="/blog") Blog
+    li: a(href="mailto:chrisjobando@gatech.edu") Contact
 
 .mobile-nav
-	+nav-content()
+  +nav-content()
 
 header
-	.header-position
-		a.logo(href="/") Christopher Obando
+  .header-position
+    a.logo(href="/") Christopher Obando
 
-		nav.site-nav
-			+nav-content()
+    nav.site-nav
+      +nav-content()
 
-		.copy
-			p © 2019 Chris Obando.
-			p All Rights Reserved
+    .copy
+      p © 2019 Chris Obando.
+      p All Rights Reserved
 
-		.mobile-nav-toggle: span
-			script(src="https://code.jquery.com/jquery-1.11.0.min.js")
-			script(src="/assets/js/functions.js")
-			script(src="/assets/js/gba_loader.js")
+    .mobile-nav-toggle: span
+      script(src="https://code.jquery.com/jquery-1.11.0.min.js")
+      script(src="/assets/js/functions.js")
+      script(src="/assets/js/gba_loader.js")

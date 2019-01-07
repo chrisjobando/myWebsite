@@ -478,13 +478,8 @@ body {
         .home-wrap header .site-nav ul li a:hover::after {
           -webkit-transform: scaleX(1);
                   transform: scaleX(1); }
-      .home-wrap header .site-nav ul li .highlight {
+      .home-wrap header .site-nav ul li .active {
         color: #ffc914; }
-  .home-wrap header .email-link {
-    color: #222222;
-    display: block;
-    text-align: right;
-    padding-right: 20px; }
   .home-wrap header .copy {
     display: block;
     text-align: right;
