@@ -928,29 +928,9 @@ section.resumepage {
     background-color: rgba(34, 34, 34, 0.85);
     position: center top; }
     section.resumepage .rect p {
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 1;
-      margin-top: 0;
-      text-align: center;
-      padding-top: 3px;
+      padding-top: 30px;
       padding-left: 10px;
       padding-right: 10px; }
-      section.resumepage .rect p img {
-        padding-top: 10px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%; }
-    section.resumepage .rect .home-lead {
-      font-size: 40px;
-      font-weight: 800;
-      text-align: center;
-      padding-top: 10px;
-      transition: all 0.7s ease-in-out; }
-    section.resumepage .rect .skill {
-      color: #ffc914;
-      font-weight: 800; }
 
 .home-wrap {
   display: -ms-flexbox;
