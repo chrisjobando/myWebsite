@@ -888,33 +888,33 @@ section.shadowknight {
       padding-top: 3px;
       padding-left: 10px;
       padding-right: 10px; }
-    section.shadowknight .rect ul {
+  section.shadowknight .flex.flex--center {
+    display: -ms-flexbox;
+    display: flex; }
+    section.shadowknight .flex.flex--center ul {
       text-align: center; }
-      section.shadowknight .rect ul li {
+      section.shadowknight .flex.flex--center ul li {
         text-align: left; }
-      section.shadowknight .rect ul .char {
+      section.shadowknight .flex.flex--center ul .char {
         color: #ffc914;
         list-style: none; }
-      section.shadowknight .rect ul .none {
+      section.shadowknight .flex.flex--center ul .none {
         list-style: none; }
-    section.shadowknight .rect .action.gba_loader div {
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 1;
-      margin-top: 0;
-      padding-top: 3px;
-      padding-bottom: 3px;
-      padding-left: 10px;
-      color: #ffc914; }
-    section.shadowknight .rect .home-lead {
+    section.shadowknight .flex.flex--center .home-lead {
       font-size: 40px;
       font-weight: 800;
       text-align: center;
       padding-top: 10px;
       transition: all 0.7s ease-in-out; }
-    section.shadowknight .rect .skill {
+    section.shadowknight .flex.flex--center .skill {
       color: #ffc914;
       font-weight: 800; }
+
+@media (max-width: 775px) {
+  .flex.flex--center .col-80 .rect .flex.flex--center {
+    display: block; }
+    .flex.flex--center .col-80 .rect .flex.flex--center .action.gba_loader {
+      padding-left: 15px; } }
 
 section.resumepage {
   background-image: url(../img/resume-bg.jpg);
