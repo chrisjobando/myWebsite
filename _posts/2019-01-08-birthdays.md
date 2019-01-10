@@ -1,6 +1,6 @@
 ---
 layout: post
-author: chris
+author: Chris
 ---
 This is a test blog post
 

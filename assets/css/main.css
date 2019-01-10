@@ -954,18 +954,23 @@ section.blog-title {
   section.blog-title .skill {
     font-weight: 800; }
 
-section.blog-list {
-  background-color: #D0D3C5;
-  font-family: 'Karla';
-  height: 100%; }
-  section.blog-list ul {
-    list-style: none; }
-    section.blog-list ul li h2 {
-      text-align: center; }
-      section.blog-list ul li h2 a {
-        color: #032B2F; }
-    section.blog-list ul p {
-      color: #08708A; }
+section.blog-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/blog/post-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Karla'; }
+  section.blog-1 .title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .6s, visibility .6s; }
+    section.blog-1 .title a {
+      color: #ffc914; }
+  section.blog-1:hover .title {
+    visibility: visible;
+    opacity: 1; }
 
 .home-wrap {
   display: -ms-flexbox;
