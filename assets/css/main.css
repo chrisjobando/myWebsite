@@ -857,7 +857,9 @@ section.portfolio-shadowknight {
         display: -ms-flexbox;
         display: flex;
         margin-left: auto;
-        margin-right: auto; }
+        margin-right: auto;
+        height: 60%;
+        width: 60%; }
     section.portfolio-shadowknight .rect .home-lead {
       font-size: 40px;
       font-weight: 800;
@@ -891,6 +893,9 @@ section.shadowknight {
   section.shadowknight .flex.flex--center {
     display: -ms-flexbox;
     display: flex; }
+    section.shadowknight .flex.flex--center .action .gba_loader img {
+      height: 100%;
+      width: 100%; }
     section.shadowknight .flex.flex--center ul {
       text-align: center; }
       section.shadowknight .flex.flex--center ul li {
