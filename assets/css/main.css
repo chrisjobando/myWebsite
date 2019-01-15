@@ -893,9 +893,6 @@ section.shadowknight {
   section.shadowknight .flex.flex--center {
     display: -ms-flexbox;
     display: flex; }
-    section.shadowknight .flex.flex--center .action .gba_loader img {
-      height: 100%;
-      width: 100%; }
     section.shadowknight .flex.flex--center ul {
       text-align: center; }
       section.shadowknight .flex.flex--center ul li {
@@ -917,9 +914,7 @@ section.shadowknight {
 
 @media (max-width: 775px) {
   .flex.flex--center .col-80 .rect .flex.flex--center {
-    display: block; }
-    .flex.flex--center .col-80 .rect .flex.flex--center .action.gba_loader {
-      padding-left: 15px; } }
+    display: block; } }
 
 section.resumepage {
   background-image: url(../img/resume-bg.jpg);
@@ -927,9 +922,8 @@ section.resumepage {
   background-size: cover;
   color: white;
   font-family: 'Karla'; }
-  section.resumepage iframe, section.resumepage object, section.resumepage embed {
-    max-width: 100% !important;
-    max-height: 100% !important; }
+  section.resumepage .flex.flex--center iframe {
+    max-width: 100% !important; }
 
 section.blog-title {
   background-color: #193446;

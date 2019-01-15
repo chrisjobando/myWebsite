@@ -4,8 +4,8 @@
           loader = document.querySelector('.gba_loader');
           loader && loader.addEventListener('click', (e) => {
             let ninja = document.createElement('iframe');
-            ninja.width = 400;
-            ninja.height = 266.67;
+            ninja.width = 500;
+            ninja.height = 333.33;
 
             ninja.src = '/assets/gba/index.html';
             e.currentTarget.replaceWith(ninja);
