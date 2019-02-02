@@ -584,7 +584,13 @@ section.about {
     height: 100%;
     width: 100%;
     background-color: rgba(34, 34, 34, 0.85);
-    position: center top; }
+    position: center top;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px; }
+    section.about .rect a {
+      color: #ffc914;
+      font-size: 40px; }
     section.about .rect p {
       font-size: 20px;
       font-weight: 400;
